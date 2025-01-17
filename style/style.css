@@ -1,5 +1,21 @@
 
-
+.content{
+    width: 1600px;
+    height: 4541px;
+}
+.all{
+   align-items: center;
+}
+.header{
+    width: 1280px;
+    height: 100px;
+    padding: 10px 130px;
+    
+}
+.header-title{
+    font-size: 32;
+    font-weight: bold;
+}
 
 nav{
     display: flex;
@@ -53,7 +69,7 @@ nav ul li{
     background-color: #C6E4D6;
     display: flex;
     height: 560px;
-    width: 1300px;
+    width: 1280px;
     /* position: center; */
     
     
@@ -61,19 +77,252 @@ nav ul li{
     justify-content: space-between;
     padding: 80px 100px;
     
+    
 }
 
-.content{
+/* .content{
     width: 1600px;
     height: 5156px;
 
     position: fixed;
-}
+} */
 .hero{
     width: 474px;
     height: 400px;
 }
-.header-title{
-    font-size: 32;
-    font-weight: bold;
+
+.pallir{
+    width: 1280px;
+    height: 324px;
 }
+.pallir-heading{
+    font-size: 40px;
+    font-weight: bold;
+    color:#0E0E0E;
+    padding-bottom: 25px;
+
+}
+.pallir-body{
+    width: 1280px;
+    height: 224px;
+    display: flex;
+    justify-content: space-between;
+}
+.pallir-content{
+    width: 302px;
+    height: 244px;
+    
+    border-radius: 16px;
+    color: #0E0E0E;
+    text-align: justify;
+    gap: 24px;
+
+
+}
+.innov-img{
+    width: 64px;
+    height: 64px;
+}
+
+.fut-head{
+    width: 1280px;
+    height: 150px;
+}
+.vision{
+    width: 410px;
+    height: 300px;
+    
+    border-radius: 16px;
+}
+
+.digital{
+    
+    background-color:#81B4FC ;
+}
+.green{
+    background-color:#C6E4D6 ;
+}
+.modren{
+    background-color:#F7EBCF ;
+}
+.fut-vision{
+    width: 1280px;
+    height: 325px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.digi-btn{
+    border-radius: 8px;
+    width: 122px;
+    height: 41px;
+    color: white;
+    background-color: #5490F5;
+}
+.gree-btn{
+    border-radius: 8px;
+    width: 122px;
+    height: 41px;
+    color: white;
+    background-color: #09A15C;
+}
+.modr-btn{
+    border-radius: 8px;
+    width: 122px;
+    height: 41px;
+    color: white;
+    background-color: #FFC239;
+}
+.vision-ses{
+    width: 1280px;
+    height: 150px;
+    background-color: white;
+    border-radius: 16px;
+    align-items:normal;
+    
+}
+.recent-news{
+    width: 1280px;
+    height: 150px;
+
+}
+.news-1{
+    width: 1280px;
+    height: 402px;
+    padding: 48px 48px;
+    background-color: #fff;
+    border-radius: 24px;
+    display: flex;
+    justify-content: flex-start;
+
+}
+.satelite{
+    width: 408px;
+    height: 290px;
+    border-radius: 24px;
+}
+.news-con{
+    width: 774px;
+    height: 290px;
+    align-items:flex-start;
+}
+.al{
+    width: 134px;
+    height: 40px;
+}
+.time-date{
+   width: 744px;
+   height: 24px;
+   display: flex;
+
+}
+.date{
+    width: 122px;
+    height: 24px;
+}
+.time{
+    width: 122px;
+    height: 24px;
+}
+.news-pera{
+width: 744px;
+height: 72px;
+font-size: 16;
+color: #0E0E0E;
+}
+.news-btn{
+    width: 139px;
+    height: 48px;
+    padding: 13px 26px;
+    border-radius: 8px;
+    background-color: #006A50;
+    color: #fff;
+    
+}
+.news-2{
+    width: 1280px;
+    height: 402px;
+    padding: 48px 48px;
+    background-color: #fff;
+    border-radius: 24px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+
+}
+.news-3{
+    width: 1280px;
+    height: 402px;
+    padding: 48px 48px;
+    background-color: #fff;
+    border-radius: 24px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+
+}
+.donate{
+    width: 1280px;
+    height: 464px;
+    padding: 0px 240px;
+    margin-top: 0;
+    
+
+}
+.donate-heading{
+    width: 1280px;
+    height: 48px;
+
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;  
+}
+.donate-pera{
+    width: 1104px;
+    height: 48px;
+    font-size: 16px;
+    text-align: center;
+}
+.donate-money{
+    width: 1071px;
+    height: 128px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.donate-amount{
+    width: 240px;
+    height: 128px;
+    
+    border-radius: 16px;
+    font-size: 40px;
+    font-weight: bold;
+    align-items: center;
+    
+
+}
+main{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.amount{
+    width: 1032px;
+    height: 15px;
+    padding: 20px 40px;
+    margin-top: 10px;
+    justify-content: center;
+    
+    
+}
+.input{
+    background-color: #006A50;
+    border-radius: 8px;
+    width: 141px;
+    height: 30px;
+    
+}
+.donate-submite{
+margin-left: 445px;
+margin-top: 10px;
+}
+
