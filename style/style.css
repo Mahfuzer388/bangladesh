@@ -1,33 +1,79 @@
 
 
 
-.header{
+nav{
     display: flex;
     justify-content: space-between;
-    width: 1400px;
-    height: 50px;
-    padding: 20px 140px;
-}
-.header button{
-    padding: 15px 30px;
-    border-radius: 8px;
+   
     
-}
-.header h3{
-    
-}
-.banner{
-    background-color: #006A50;
-    display: flex;
-    height: 460px;
-    width: 1800px;
-    /* position: center; */
-    text-align: center;
     align-items: center;
-    border-radius: 20px;
+}
+
+nav ul li{
+    list-style: none;
     
+}
+
+.bt{
+    border-radius: 6px;
+    padding: 10px 20px;
+    color: #006A50;
+}
+
+.banner-heaading{
+    color: #0E0E0E;
+    font-size: 24px;
+}
+
+.banner-pera{
+    font-weight: bold;
+    font-size: 56px;
+}
+.banner-content{
+    width: 450px;
+    height: 560px;
+    text-align:start;
+}
+.banner-btn{
+    background-color: #006A50;
+    border-radius: 8px;
+    padding: 17px 34px;
+    height: 56px;
+    width: 270px;
+    color:#fff;
+    font-weight:200px;
+    font-size: 16px;
+
+}
+
+    
+
+
+.banner{
+    background-color: #C6E4D6;
+    display: flex;
+    height: 560px;
+    width: 1300px;
+    /* position: center; */
+    
+    
+    border-radius: 20px;
+    justify-content: space-between;
+    padding: 80px 100px;
+    
+}
+
+.content{
+    width: 1600px;
+    height: 5156px;
+
+    position: fixed;
 }
 .hero{
     width: 474px;
     height: 400px;
+}
+.header-title{
+    font-size: 32;
+    font-weight: bold;
 }
